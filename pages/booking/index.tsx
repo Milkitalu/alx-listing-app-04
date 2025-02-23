@@ -25,7 +25,8 @@ export default function BookingForm() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    / Basic validation
+   //Basic validation
+   
   if (
     !formData.firstName ||
     !formData.lastName ||
